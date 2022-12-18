@@ -1,9 +1,10 @@
 public class Main {
 
-    static int myMinIntValue = Integer.MIN_VALUE;
+    static Byte mean = Byte.MAX_VALUE;
+    static Byte mean2 = Byte.MIN_VALUE;
     public static void main(String[] args) {
-        System.out.println( myMinIntValue);
-
+        System.out.println(mean);
+        System.out.print(mean2);
     }
 }
 

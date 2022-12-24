@@ -10,9 +10,8 @@ public class Main {
     // so i  used $ and  for the $ sign the unicode is \u0024
  static String mystring2 = " I wish have \u002400000";
     public static void main(String[] args) {
-        System.out.println(dollarSign);
-        System.out.println(mystring);
-        System.out.println(mystring2);
+        //we can also use the print;n method in the same line to be executed
+        System.out.println(dollarSign); System.out.println(mystring); System.out.println(mystring2);
 
     }
 

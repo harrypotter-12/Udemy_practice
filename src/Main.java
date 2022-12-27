@@ -1,24 +1,18 @@
 
 
 public class Main {
-    static byte ch1 = 3;
 
+ static String mystring = "This is the string";
+ //for dollar sign
+    static String dollarSign = "\u0024";
 
-
-    static int ch3 = 2;
-
-    static short  shortTotal =    (short)   (1000 + 10 * (ch1 + ch3));
-
-
-    static long ch4 = 50000L + 10L * (ch1 +  ch3);
-
-
+ //we can also use the unicode here by using unicode we don;t have to use symbols which simplifies the conversion process
+    // so i  used $ and  for the $ sign the unicode is \u0024
+ static String mystring2 = " I wish have \u002400000";
     public static void main(String[] args) {
+        //we can also use the print;n method in the same line to be executed
+        System.out.println(dollarSign); System.out.println(mystring); System.out.println(mystring2);
 
-        System.out.println(ch1);
-        System.out.println(ch3);
-        System.out.println(ch4);
-        System.out.println(shortTotal);
     }
 
 
